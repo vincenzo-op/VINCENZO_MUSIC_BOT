@@ -123,8 +123,8 @@ async def playlist(client, message):
     now_playing = temp[0][0]
     by = temp[0][1].mention(style="md")
     msg = "**CURRENT SONG--** di {}".format(message.chat.title)
-    msg += "\n• " + now_playing
-    msg += "\n• Req by " + by
+    msg += "\nâ€¢ " + now_playing
+    msg += "\nâ€¢ Req by " + by
     temp.pop(0)
     if temp:
         msg += "\n\n"
@@ -132,8 +132,8 @@ async def playlist(client, message):
         for song in temp:
             name = song[0]
             usr = song[1].mention(style="md")
-            msg += f"\n• {name}"
-            msg += f"\n• Req by {usr}\n"
+            msg += f"\nâ€¢ {name}"
+            msg += f"\nâ€¢ Req by {usr}\n"
     await message.reply_text(
         msg,
         reply_markup=InlineKeyboardMarkup(
@@ -221,8 +221,8 @@ async def p_cb(b, cb):
         now_playing = temp[0][0]
         by = temp[0][1].mention(style="md")
         msg = "**CURRENTLY PLAYING** di {}".format(cb.message.chat.title)
-        msg += "\n• " + now_playing
-        msg += "\n• Req by " + by
+        msg += "\nâ€¢ " + now_playing
+        msg += "\nâ€¢ Req by " + by
         temp.pop(0)
         if temp:
             msg += "\n\n"
@@ -230,8 +230,8 @@ async def p_cb(b, cb):
             for song in temp:
                 name = song[0]
                 usr = song[1].mention(style="md")
-                msg += f"\n• {name}"
-                msg += f"\n• Req by {usr}\n"
+                msg += f"\nâ€¢ {name}"
+                msg += f"\nâ€¢ Req by {usr}\n"
         await cb.message.edit(
             msg,
             reply_markup=InlineKeyboardMarkup(
