@@ -26,13 +26,13 @@ async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""**HELLO MY NAME IS** [{PROJECT_NAME}](https://telegra.ph/file/.jpg)
 DEVELOPED BY {OWNER}
-·??????????????? ·
+Â·??????????????? Â·
 ?? I HAVE MANY FEATURES FOR THOSE WHO LIKE SONGS..
 ? **PLAYING SONGS IN GROUP**
 ? **PLAYING SONGS IN CHANNEL**
 ? **DOWNLOAD SONGS**
 ? **PLAYING SONGS FROM YOUTUBE**
-·??????????????? · 
+Â·??????????????? Â· 
 !!!CLICK THE HELP BUTTON FOR MORE INFORMATION!!
 """,
         reply_markup=InlineKeyboardMarkup(
@@ -77,7 +77,7 @@ async def gstart(_, message: Message):
                         text="?????", url=f"https://t.me/{SUPPORT_GROUP}"
                     ),
                     InlineKeyboardButton(
-                        text="??????? ", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        text="channel ", url=f"https://t.me/{UPDATES_CHANNEL}"
                     ),
                 ],
                 [
@@ -205,37 +205,37 @@ async def ghelp(_, message: Message):
       
 **=>> PLAY SONG**
       
-• /play (song name) - TO PLAY THE REQUESTED SONG..
-• /ytplay (SONG NAME) - TO PLAY THE REQUESTED SONG VIA YOUTUBE.
-• /yt (SONG NAME) - TO PLAY THE REQUESTED SONG FROM YT.
-• /p (SONG NAME) - TO PLAY THE REQUESTED SONG VIA YOUTUBE.
-• /lplay - TO PLAY THE SONG YOU REPLY FORM GC....
-• /player: GO TO PLAYER SETTINGS MENU....
-• /skip: SKIPS THE PLAYING SONG..
-• /pause: PAUSES STREAMING....
-• /resume: RESUMES STREAMING...
-• /end: STOPS STREAMING....
-• /current: SHOW THE CURRENTLY PLAYING TRACK
-• /playlist: SHOWS THE LIST OF REQUESTED SONGS
+â€¢ /play (song name) - TO PLAY THE REQUESTED SONG..
+â€¢ /ytplay (SONG NAME) - TO PLAY THE REQUESTED SONG VIA YOUTUBE.
+â€¢ /yt (SONG NAME) - TO PLAY THE REQUESTED SONG FROM YT.
+â€¢ /p (SONG NAME) - TO PLAY THE REQUESTED SONG VIA YOUTUBE.
+â€¢ /lplay - TO PLAY THE SONG YOU REPLY FORM GC....
+â€¢ /player: GO TO PLAYER SETTINGS MENU....
+â€¢ /skip: SKIPS THE PLAYING SONG..
+â€¢ /pause: PAUSES STREAMING....
+â€¢ /resume: RESUMES STREAMING...
+â€¢ /end: STOPS STREAMING....
+â€¢ /current: SHOW THE CURRENTLY PLAYING TRACK
+â€¢ /playlist: SHOWS THE LIST OF REQUESTED SONGS
       
 SOME COMMANDS THAT CAN BE USED INSTEAD OF /player /skip /pause /resume  /end  **ONLY FOR GROUP ADMINS**
       
 **==>>Download SONG**
       
-• /song [SONG NAME]: DOWNLOAD SONG AUDIO FROM YT..
+â€¢ /song [SONG NAME]: DOWNLOAD SONG AUDIO FROM YT..
 **=>> CHANNEL Music Play ??**
       
 FOR GROUP ADMINS ONLY:
       
-• /cplay (SONG NAME) - PLAYS THE REQUESTED SONG
-• /cplaylist - SHOW CURRENT PLAYLIST..
-• /cccurrent - SHOWS WHAT IS PLAYING
-• /cplayer - SHOWS CURRENT SONG PLAYER...
-• /cpause - PAUSES STREAMING......
-• /cresume - RESUMES STREAMING....
-• /cskip - SKIPS CURRENTLY PLAYING SONG.....
-• /cend - ENDS STREAMING......
-• /userbotjoinchannel - ASSISTANT BOT JOINS THE CHAT..""",
+â€¢ /cplay (SONG NAME) - PLAYS THE REQUESTED SONG
+â€¢ /cplaylist - SHOW CURRENT PLAYLIST..
+â€¢ /cccurrent - SHOWS WHAT IS PLAYING
+â€¢ /cplayer - SHOWS CURRENT SONG PLAYER...
+â€¢ /cpause - PAUSES STREAMING......
+â€¢ /cresume - RESUMES STREAMING....
+â€¢ /cskip - SKIPS CURRENTLY PLAYING SONG.....
+â€¢ /cend - ENDS STREAMING......
+â€¢ /userbotjoinchannel - ASSISTANT BOT JOINS THE CHAT..""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [InlineKeyboardButton(text="?????", url=f"t.me/{OWNER}")],
