@@ -32,30 +32,30 @@ DEVELOPED BY {OWNER}
 ? **PLAYING SONGS IN CHANNEL**
 ? **DOWNLOAD SONGS**
 ? **PLAYING SONGS FROM YOUTUBE**
-·??????????????? · 
+・✦▭▭▭▭✧◦✦◦✧▭▭▭▭✦ ・
 !!!CLICK THE HELP BUTTON FOR MORE INFORMATION!!
 """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("??  ????????", callback_data=f"help+1"),
+                    InlineKeyboardButton("ʜᴇʟᴘ", callback_data=f"help+1"),
                     InlineKeyboardButton(
-                        "?? ?????? ???? ?????????? +",
+                        "ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ +"
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "?????", url=f"https://t.me/{SUPPORT_GROUP}"
+                        "ɢʀᴏᴜᴘ", url=f"https://t.me/{SUPPORT_GROUP}"
                     ),
                     InlineKeyboardButton(
-                        "???????", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"
                     ),
                 ],
                 [
-                    InlineKeyboardButton("! ??? ??? !", url=f"{SOURCE_CODE}"),
+                    InlineKeyboardButton("! ɢɪᴛ ʜᴜʙ !", url=f"{SOURCE_CODE}"),
                     InlineKeyboardButton(
-                        "??????", url="https://t.me/koii_nhi_apnaa"
+                        "ᴄᴏɴᴛᴀᴄᴛ", url="https://t.me/koii_nhi_apnaa"
                     ),
                 ],
             ]
@@ -71,19 +71,19 @@ async def gstart(_, message: Message):
         caption=f"""** {PROJECT_NAME} is online**""",
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton(text="?????", url=f"t.me/{OWNER}")],
+                [InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url=f"t.me/{OWNER}")],
                 [
                     InlineKeyboardButton(
-                        text="?????", url=f"https://t.me/{SUPPORT_GROUP}"
+                        text="ɢʀᴏᴜᴘ", url=f"https://t.me/{SUPPORT_GROUP}"
                     ),
                     InlineKeyboardButton(
-                        text="channel ", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        text="ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"
                     ),
                 ],
                 [
-                    InlineKeyboardButton("??? ???", url=f"{SOURCE_CODE}"),
+                    InlineKeyboardButton("ɢɪᴛ ʜᴜʙ", url=f"{SOURCE_CODE}"),
                     InlineKeyboardButton(
-                        "????????", url="https://t.me/our_SECRET_SOCIETY"
+                        "Jᴏɪɴ..", url="https://t.me/our_SECRET_SOCIETY"
                     ),
                 ],
             ]
