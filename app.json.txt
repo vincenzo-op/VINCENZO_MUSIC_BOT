@@ -1,0 +1,83 @@
+#app.json
+{
+  "name": "VINCENZO_MUSIC_BOT",
+  "description": "BEST MUSIC BOT TO PLAY MUSIC IN GROUP VOICE CHATS...DEVELOPED BY-@koii_nhi_apnaa ",
+  "logo": "https://telegra.ph/file/744ec1f5f15768fd3cc0b.jpg",
+  "keywords": ["music", "voicechat", "telegram"],
+  "repository": "https://github.com/vincenzo-op/VINCENZO_MUSIC_BOT",
+  "stack": "container",
+  "env": {
+    "SESSION_NAME": {
+      "description": "STRING SESSION OF YOUR MUSIC BOT...",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "BOT TOKEN..GET FROM @BotFather",
+      "required": true
+    },
+    "BOT_USERNAME": {
+      "description": "USERNAME OF YOUR BOT WITHOUT @",
+      "required": true
+    },
+    "BOT_NAME": {
+      "description": "MUSIC PLAYER BOT NAME..ELSE LEAVE AS IT IS..",
+      "required": false,
+      "value": "VINCENZO_MUSIC_BOT"
+   },
+    "SUPPORT_GROUP": {
+      "description": "SUPPORT GROUP LINK WITHOUT @..ELSE LEAVE AS IT IS....",
+      "required": true,
+      "value": "our_SECRET_SOCIETY"
+    },
+    "UPDATES_CHANNEL": {
+      "description": "UPDATE CHANNEL LINK..WITHOUT@...ELSE LEAVE AS IT IS..",
+      "required": true,
+      "value": "our_SECRET_SOCIETY"
+    }, 
+    "PROJECT_NAME": {
+      "description": "NAME OF YOUR PROJECT..LEAVE AS IT IS...",
+      "required": false,
+      "value": "VINCENZO_MUSIC_BOT"
+    },
+    "ASSISTANT_NAME": {
+      "description": "USERNAME OF YOUR MUSIC ASSISTANT BOT WITHOUT @.",
+      "required": true
+    },
+    "OWNER": {
+      "description": "TELEGRAM USERNAME OF OWNER..ELSE LEAVE AS IT IS...",
+      "value": "@koii_nhi_apnaa"
+      "required": true
+    },
+    "ARQ_API_KEY": {
+      "description": "GET IT FORM t.me/ARQRobot OR @ARQRobot",
+      "required": true
+    },    
+    "BG_IMAGE": {
+      "description": "CUSTOM BACKGROUND IMAGE... FORMAT- .png / .jpg",
+      "required": false,
+      "value": "https://telegra.ph/file/744ec1f5f15768fd3cc0b.jpg"
+    },        
+    "API_ID": {
+      "description": "FILL YOUR APP ID FROM https://my.telegram.org/auth",
+      "required": true
+    },   
+    "API_HASH": {
+      "description": "FILL YOUR API HASH FROM https://my.telegram.org/auth ",
+      "required": true
+    },
+    "PMPERMIT": {
+      "description": "PMPERMIT",
+      "required": false,
+      "value": "ENABLE"
+    }, 
+    "SUDO_USERS": {
+      "description": "LIST ALL THE SUDO IDS(DO GIVE SPACE AFTER EACH ID)",
+      "required": true
+    },
+    "DURATION_LIMIT": {
+      "description": "LEAVE IT AS IT IS....",
+      "required": true,
+      "value": "300"
+    }
+  }
+}
