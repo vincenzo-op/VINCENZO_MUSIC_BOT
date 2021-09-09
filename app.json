@@ -58,11 +58,11 @@
       "value": "https://telegra.ph/file/744ec1f5f15768fd3cc0b.jpg"
     },        
     "API_ID": {
-      "description": "FILL YOUR APP ID FROM https://my.telegram.org/auth",
+      "description": "FILL YOUR APP ID FROM https://my.telegram.org/apps",
       "required": true
     },   
     "API_HASH": {
-      "description": "FILL YOUR API HASH FROM https://my.telegram.org/auth ",
+      "description": "FILL YOUR API HASH FROM https://my.telegram.org/apps",
       "required": true
     },
     "PMPERMIT": {
