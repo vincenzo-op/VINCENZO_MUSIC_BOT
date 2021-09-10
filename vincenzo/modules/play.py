@@ -122,7 +122,7 @@ async def playlist(client, message):
         temp.append(t)
     now_playing = temp[0][0]
     by = temp[0][1].mention(style="md")
-    msg = "**CURRENT SONG--** di {}".format(message.chat.title)
+    msg = "**CURRENT SONG--**  {}".format(message.chat.title)
     msg += "\n• " + now_playing
     msg += "\n• Req by " + by
     temp.pop(0)
@@ -139,17 +139,17 @@ async def playlist(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("????????", callback_data="playlist"),
+                    InlineKeyboardButton("ᴘʟᴀʏʟɪsᴛ", callback_data="playlist"),
                     InlineKeyboardButton(
-                        "?????", url=f"https://t.me/{SUPPORT_GROUP}"
+                        "Gʀᴏᴜᴘ", url=f"https://t.me/{SUPPORT_GROUP}"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "???????", url=f"https://t.me/{updateschannel}"
+                        "Cʜᴀɴɴᴇʟ", url=f"https://t.me/{updateschannel}"
                     ),
                     InlineKeyboardButton(
-                        "?????", url="https://t.me/koii_nhi_apnaa"
+                        "ᴄᴏɴᴛᴀᴄᴛ", url="https://t.me/koii_nhi_apnaa"
                     ),
                 ],
             ]
@@ -237,17 +237,17 @@ async def p_cb(b, cb):
             reply_markup=InlineKeyboardMarkup(
                    [
                 [
-                    InlineKeyboardButton("????????", callback_data="playlist"),
+                    InlineKeyboardButton("ᴘʟᴀʏʟɪsᴛ", callback_data="playlist"),
                     InlineKeyboardButton(
-                        "?????", url=f"https://t.me/{SUPPORT_GROUP}"
+                        "ɢʀᴏᴜᴘ", url=f"https://t.me/{SUPPORT_GROUP}"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "???????", url=f"https://t.me/{updateschannel}"
+                        "ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{updateschannel}"
                     ),
                     InlineKeyboardButton(
-                        "?????", url="https://t.me/koii_nhi_apnaa"
+                        "ᴄᴏɴᴛᴀᴄᴛ ғᴏʀ ʜᴇʟᴘ", url="https://t.me/koii_nhi_apnaa"
                     ),
                 ],
             ]
@@ -471,20 +471,20 @@ unbann assistant bot then add Assistant Bot manually.</i>"
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("?? ????????", callback_data="playlist"),
+                    InlineKeyboardButton("ᴘʟᴀʏʟɪsᴛ", callback_data="playlist"),
                     InlineKeyboardButton(
-                        "?? ?????", url=f"https://t.me/{SUPPORT_GROUP}"
+                        "ɢʀᴏᴜᴘ⭐", url=f"https://t.me/{SUPPORT_GROUP}"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "?? ???????", url=f"https://t.me/{updateschannel}"
+                        "ᴄʜᴀɴɴᴇʟ⭐", url=f"https://t.me/{updateschannel}"
                     ),
                     InlineKeyboardButton(
-                        "?? ????????", url="https://trakteer.id/kenkansaja/tip"
+                        "Cᴏɴᴛᴀᴄᴛ ғᴏʀ ʜᴇʟᴘ", url="https://t.me/koii_nhi_apnaa"
                     ),
                 ],
-                [InlineKeyboardButton(text="?? ?????", callback_data="cls")],
+                [InlineKeyboardButton(text="ɴᴏᴛ ɴᴇᴇᴅᴇᴅ", callback_data="cls")],
             ]
         )
         file_name = get_file_name(audio)
@@ -528,17 +528,17 @@ unbann assistant bot then add Assistant Bot manually.</i>"
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("????????", callback_data="playlist"),
+                    InlineKeyboardButton("ᴘʟᴀʏʟɪsᴛ" callback_data="playlist"),
                     InlineKeyboardButton(
-                        "?????", url=f"https://t.me/{SUPPORT_GROUP}"
+                        "ɢʀᴏᴜᴘ", url=f"https://t.me/{SUPPORT_GROUP}"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "???????", url=f"https://t.me/{updateschannel}"
+                        "ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{updateschannel}"
                 ),
                    InlineKeyboardButton(
-                        "?????", url="https://t.me/koii_nhi_apnaa")
+                        "ᴄᴏɴᴛᴀᴄᴛ ᴏᴡɴᴇʀ", url="https://t.me/koii_nhi_apnaa")
                 ],
         ]
         ) 
@@ -577,17 +577,17 @@ unbann assistant bot then add Assistant Bot manually.</i>"
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("????????", callback_data="playlist"),
+                    InlineKeyboardButton("ᴘʟᴀʏʟɪsᴛ", callback_data="playlist"),
                     InlineKeyboardButton(
-                        "?????", url=f"https://t.me/{SUPPORT_GROUP}"
+                        "ɢʀᴏᴜᴘ", url=f"https://t.me/{SUPPORT_GROUP}"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "???????", url=f"https://t.me/{updateschannel}"
+                        "ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{updateschannel}"
                     ),
                     InlineKeyboardButton(
-                        "?????", url="https://t.me/koii_nhi_apnaa"
+                        "ᴄᴏɴᴛᴀᴄᴛ ғᴏʀ ʜᴇʟᴘ", url="https://t.me/koii_nhi_apnaa"
                     )                
                ],
             ]
@@ -630,8 +630,8 @@ join")
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption=f"?? **TITLE:** [{title[:60]}]({url})\n? **DURATION:** {duration}\n?? **Status:** PLAYING\n"
-            + f"?? **Requested By:** {message.from_user.mention}",
+            caption=f" **TITLE:** [{title[:60]}]({url})\n? **DURATION:** {duration}\n?? **Status:** PLAYING\n"
+            + f" **Requested By:** {message.from_user.mention}",
         )
         return await lel.delete()
         os.remove("final.png")
@@ -641,20 +641,20 @@ join")
 @errors
 async def stream(_, message: Message):
 
-    lel = await message.reply("?? **processing** sound...")
+    lel = await message.reply("**processing** sound...")
     message.from_user.id
     message.from_user.first_name
 
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("????????", callback_data="playlist"),
-                InlineKeyboardButton("?????", url=f"https://t.me/{SUPPORT_GROUP}"),
+                InlineKeyboardButton("ᴘʟᴀʏʟɪsᴛ", callback_data="playlist"),
+                InlineKeyboardButton("ɢʀᴏᴜᴘ", url=f"https://t.me/{SUPPORT_GROUP}"),
             ],
             [
-                InlineKeyboardButton("???????", url=f"https://t.me/{updateschannel}"),
+                InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{updateschannel}"),
                 InlineKeyboardButton(
-                    "owner", url="https://t.me/koii_nhi_apnaa"
+                    "Cᴏɴᴛᴀᴄᴛ ғᴏʀ ʜᴇʟᴘ", url="https://t.me/koii_nhi_apnaa"
                 ),
             ],
         ]
@@ -670,7 +670,7 @@ async def stream(_, message: Message):
     if audio:
         if round(audio.duration / 60) > DURATION_LIMIT:
             raise DurationLimitError(
-                f"? Videos longer than {DURATION_LIMIT} minute(s) aren't allowed to play!"
+                f"Videos longer than {DURATION_LIMIT} minute(s) aren't allowed to play!"
             )
 
         file_name = get_file_name(audio)
