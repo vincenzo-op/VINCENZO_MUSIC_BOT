@@ -48,12 +48,12 @@
     },
     "ARQ_API_KEY": {
       "description": "GET API ID FROM » t.me/ARQRobot OR @ARQRobot",
-      "required": true
+      "required": false
     },    
     "BG_IMAGE": {
       "description": "BACKGROUND IMAGE FOR UR BOT.png / .jpg",
       "required": false,
-      "value": "https://telegra.ph/file/aafce7ef46a06e70f08b8.png"
+      "value": "https://telegra.ph/file/744ec1f5f15768fd3cc0b.jpg"
     },        
     "API_ID": {
       "description": "YOUR API ID U CAN GET FROM my.telegram.org/apps ",
