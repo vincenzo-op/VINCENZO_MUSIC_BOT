@@ -86,15 +86,15 @@ def r_ply(type_):
     return InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("?", "cleave"),
-                InlineKeyboardButton("?", "cpuse"),
-                InlineKeyboardButton("??", "cresume"),
-                InlineKeyboardButton("?", "cskip"),
+                InlineKeyboardButton("🇽", "cleave"),
+                InlineKeyboardButton("||", "cpuse"),
+                InlineKeyboardButton(">", "cresume"),
+                InlineKeyboardButton(">>", "cskip"),
             ],
             [
-                InlineKeyboardButton("Playlist ??", "cplaylist"),
+                InlineKeyboardButton("ᴘʟᴀʏʟɪsᴛ", "cplaylist"),
             ],
-            [InlineKeyboardButton("? Close", "ccls")],
+            [InlineKeyboardButton("ᴄʟᴏsᴇ", "ccls")],
         ]
     )
 
@@ -640,7 +640,7 @@ thumbnail)
             caption=f" **TITLE:** [{title[:60]}]({url})\n**? DURATION:** 
 
 {duration}\n"
-            + f"?? **STATUS::** Playing\n?? **REQUESTED BY:** 
+            + f"?? **STATUS::** Playing\n **REQUESTED BY:** 
 
 {requested_by}".format(
                 message.from_user.mention()
